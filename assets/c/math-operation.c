@@ -1,3 +1,5 @@
+// Summation, subtraction, division, multiplication of A and B with and without user input.
+
 #include <stdio.h>
 
 int main() {
