@@ -6,7 +6,7 @@ int main() {
     float num1 = 51, num2 = 3;
     
     printf("%.2f\n", PI);
-    printf("Devide = %.2f", num1 / num2);
+    printf("Divide = %.2f", num1 / num2);
 
     return 0;
 }
