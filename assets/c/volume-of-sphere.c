@@ -11,7 +11,7 @@ int main() {
   float r, A;
   
   printf("Enter the radius value: ");
-  scanf("%f", r);
+  scanf("%f", &r);
 
   // Volume of sphere
   A = (4 / 3) * PI * (r * r * r);
