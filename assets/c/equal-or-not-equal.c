@@ -4,5 +4,6 @@
 
 int main () {
   // Declared variable 
-  int 
+  int num1, num2;
+  
 }
