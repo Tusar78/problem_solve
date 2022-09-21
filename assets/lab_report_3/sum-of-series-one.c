@@ -9,6 +9,9 @@ int main () {
   // User input
   printf("Enter an integer number: ");
   scanf("%d", &num);
+  
+  // User entered number
+  printf("User entered number: %d\n", num);
 
   // display the series 
   for(i = 1; i <= num; i++) {
