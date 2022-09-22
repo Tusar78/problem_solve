@@ -20,3 +20,7 @@ int main () {
 
   return 0;
 }
+
+Enter an integer number: 10
+User entered number: 10
+1 2 3 4 5 6 7 8 9 10 
