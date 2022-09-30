@@ -1,13 +1,36 @@
+// #include <stdio.h>
+
+// int main() {
+//   float A, PI, r;
+//   PI = 3.14159;
+//   printf("Enter your radius value: ");
+//   scanf("%f", &r);
+
+//   A = PI * (r * r);
+//   printf("Area of circle = %.2f", A);
+
+//   return 0;
+// }
+
 #include <stdio.h>
 
 int main() {
-  float A, PI, r;
-  PI = 3.14159;
-  printf("Enter your radius value: ");
-  scanf("%f", &r);
+  int a, b, add, sum, mul;
+  float div;
+  printf("Enter first number: ");
+  scanf("%d", &a);
+  printf("Enter second number: ");
+  scanf("%d", &b);
 
-  A = PI * (r * r);
-  printf("Area of circle = %.2f", A);
+  add = a + b;
+  sum = a - b;
+  mul = a * b;
+  div = (float) a / b;
+
+  printf("\nAddition is : %d\n", add);
+  printf("\nSubtraction is : %d\n", sum);
+  printf("\nMultiplication is : %d\n", mul);
+  printf("\nDivision is : %.2f\n", div);
 
   return 0;
 }
