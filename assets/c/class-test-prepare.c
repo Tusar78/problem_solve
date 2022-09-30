@@ -44,7 +44,9 @@ int main() {
     
     if (a > 0) {
         printf("\nThis is positive number\n");
-    } else {
+    } else if (a == 0) {
+        printf("\nZero is neither positive or negative\n");
+    }else {
         printf("\nThis is negative number\n");
     }
     
