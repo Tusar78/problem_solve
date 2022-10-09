@@ -22,10 +22,30 @@ int main() {
   return 0;
 }
 
-// Output
-/**
-a = 6
-a = 8
-a = 8
-a = 6
-*/
+
+// Write a C program for checking a number is prime or not.
+
+#include <stdio.h>;
+int main() { 
+  int num, i, flag = 0;
+  printf("Enter your number: ");
+  scanf("%d", &num);
+  if (num == 0 || num == 1) {
+      flag = 1;
+  }
+  
+  for (i = 2; i <= num / 2; i++) {
+      if (num % i == 0) {
+          flag = 1;
+          break;
+      }
+  }
+  
+  if (flag == 0) {
+      printf("%d is prime", num);
+  } else {
+      printf("%d is not prime", num);
+  }
+
+  return 0;
+}
