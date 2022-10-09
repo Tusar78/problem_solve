@@ -70,8 +70,14 @@ int main() {
   return 0;
 }
 
-Enter your number: 4
-   * 
-  * * 
- * * * 
-* * * * 
+// You have to write a C program that will take input two integer a & b and also print b & a.
+
+#include <stdio.h>
+
+int main() {
+    int a, b;
+    scanf("%d%d",&a,&b);
+    printf("%d %d",b,a);
+
+    return 0;
+}
