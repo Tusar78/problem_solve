@@ -53,7 +53,6 @@ int main() {
 // Write a C program for printing the following pattern.
 
 #include <stdio.h>;
-
 int main() { 
   int row, col, num;
   printf("Enter your number: ");
@@ -70,3 +69,9 @@ int main() {
   }
   return 0;
 }
+
+Enter your number: 4
+   * 
+  * * 
+ * * * 
+* * * * 
