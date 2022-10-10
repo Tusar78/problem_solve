@@ -1,4 +1,4 @@
-// Indentify the errors and re-write the following code.
+// Identify the errors and re-write the following code.
 
 #include <stdio.h>
 
@@ -7,6 +7,35 @@ int main() {
   scanf("%d", &x);
   x = x + y;
   printf("%d\n", x);
+
+  return 0;
+}
+
+// Write a c program for checking a number is prime or not?
+#include <stdio.h>
+
+int main() {
+  int num, i, flag = 0;
+
+  printf("Enter your number: ");
+  scanf("%d", &num);
+
+  if (num == 0 || num == 1) {
+    flag = 1;
+  }
+
+  for (i = 2; i <= num / 2; i++) {
+    if (num % i == 0) {
+      flag = 1;
+      break;
+    }
+  }
+
+  if (flag == 0) {
+    printf("%d is prime number", num);
+  } else {
+    printf("%d is not prime number", num);
+  }
 
   return 0;
 }
