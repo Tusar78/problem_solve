@@ -30,3 +30,12 @@ int main(){
     
     return 0;
 }
+
+Input the size of array : 4
+Input 4 elements in the array :
+element - 0 : 3
+element - 1 : 5
+element - 2 : 9
+element - 3 : 7
+Elements of array in sorted descending order:
+9  7  5  3 
