@@ -20,3 +20,7 @@ int main(){
    
    return 0;
 }
+Input number of rows : 3
+  1
+ 121
+12321
