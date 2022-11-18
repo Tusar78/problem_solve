@@ -12,12 +12,11 @@ int main() {
 
   // storing the largest number to arr[0]
   for (i = 1; i < n; ++i) {
-    if (arr[0] < arr[i]) {
+    if (arr[0] > arr[i]) {
       arr[0] = arr[i];
     }
-  }
-  
-  printf("Largest element = %.2lf", arr[0]);
+  }  
+  printf("Lowest Number element = %.2lf", arr[0]);
   
   return 0;
 }
