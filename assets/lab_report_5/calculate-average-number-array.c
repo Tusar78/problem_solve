@@ -23,3 +23,10 @@ int main() {
     
     return 0;
 }
+
+
+Enter the numbers of elements: 3
+1. Enter number: 10
+2. Enter number: 20
+3. Enter number: 30
+Average = 20.00
