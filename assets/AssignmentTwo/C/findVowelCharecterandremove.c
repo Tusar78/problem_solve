@@ -18,6 +18,6 @@ int main() {
     }
   }
 
-  printf("\n\nVowel charecter number is = %d", count);
+  printf("\n\nVowel character number is = %d", count);
   return 0;
 }
