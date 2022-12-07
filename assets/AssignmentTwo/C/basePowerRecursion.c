@@ -23,4 +23,3 @@ int main(){
   
  value(x,n);
 }
-
