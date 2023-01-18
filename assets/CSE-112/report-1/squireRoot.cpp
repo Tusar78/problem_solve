@@ -33,3 +33,11 @@ int main() {
   cout << "Square for Double: " << squareRoot(num2) << "\n";
   cout << "Square for Long: " << squareRoot(num3) << "\n";
 }
+
+Enter your integer number: 9
+Enter your double number: 49.49
+Enter your long number: 30405060
+
+Square for Integer: 3
+Square for Double: 7.03491
+Square for Long: 5514
