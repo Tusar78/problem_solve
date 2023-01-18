@@ -47,3 +47,11 @@ int main() {
   variusMethod.setFunc(radius, height, width);
   variusMethod.show();
 }
+
+Enter radius : 5 
+Enter height: 3
+Enter width: 7
+
+Area of Circle: 78.5397
+Area of Triangle: 10.5
+Area of Rectangle: 21
