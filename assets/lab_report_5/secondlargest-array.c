@@ -27,3 +27,11 @@ int main(){
     
     return 0;
 }
+
+Input the size of array : 4
+Input 4 elements in the array :
+element - 0 : 5
+element - 1 : 7
+element - 2 : 9
+element - 3 : 3
+The second largest element is: 7
