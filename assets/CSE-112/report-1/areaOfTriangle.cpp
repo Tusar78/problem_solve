@@ -69,3 +69,11 @@ int main() {
   myCircle.show();
   cout << "\n";
 }
+
+Enter radius = 5
+Enter width = 7
+Enter height = 8
+
+Area of triangle is = 28
+Area of Rectangle is = 56
+Area of Circle is = 78.5397
