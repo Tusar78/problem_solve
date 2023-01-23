@@ -77,3 +77,12 @@ int main() {
   pCircle -> show();
   cout << "\n";
 }
+
+
+Enter radius = 5
+Enter width = 7
+Enter height = 9
+
+Area of triangle is = 31.5
+Area of Rectangle is = 63
+Area of Circle is = 78.5397
