@@ -5,6 +5,7 @@ class account {
   long accountNum;
   string userName;
   double balance;
+  
 public:
   void createAccount(long acNum, string userN, double blnc) {
     accountNum = acNum;
