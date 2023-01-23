@@ -29,3 +29,11 @@ int main() {
   cout << "Absolute for double = " << abs(num2) << "\n";
   cout << "Absolute for long = " << abs(num3) << "\n";
 }
+
+Enter integer: -45
+Enter double: -54.5
+Enter long: 24155
+
+Absolute for integer = 45
+Absolute for double = 54
+Absolute for long = 24155
