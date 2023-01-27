@@ -35,7 +35,7 @@ int main() {
   int carWeight, carSpeed;
   int truckWeight, truckSpeed;
 
-  cout << "Enter Car Weight and Car Speed : ";
+  cout << "Enter Car Weight & Car Speed : ";
   cin >> carWeight >> carSpeed;
   
   cout << "Enter Truck Weight and Truck Speed : ";
