@@ -15,7 +15,7 @@ int main() {
 
   cout << showpoint;
   cout << fixed;
-  cout << setprecision(2);
+  cout << setprecision(4);
   cout << setw(20);
   cout << "Summation is = " << sum << endl;
   cout << noshowpoint;
