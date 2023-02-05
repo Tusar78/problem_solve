@@ -8,7 +8,7 @@ class student {
   double CGPA;
   string name;
 public:
-  student(int id, double CGPA, string name) {
+  student(int id, double cgpa, string name) {
     this -> id = id;
     this -> CGPA = CGPA;
     this -> name = name;
