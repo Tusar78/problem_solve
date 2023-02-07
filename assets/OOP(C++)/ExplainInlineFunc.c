@@ -12,7 +12,7 @@ public:
 };
 
 inline void operation :: sum() {
-  cout << "Summatino of Two Numbers: " << a + b;
+  cout << "Summation of Two Numbers: " << a + b;
 }
 
 
