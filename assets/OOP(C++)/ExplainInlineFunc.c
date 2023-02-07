@@ -1,4 +1,4 @@
-// Explain inline function with autometic inline function using switable program.
+// Explain inline function with automatic inline function using suitable program.
 
 // (i). Explained inline function.
 #include <iostream>
