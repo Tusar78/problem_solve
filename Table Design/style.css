@@ -1,4 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+@font-face {
+  font-family: Eudoxus-Sans;
+  src: url("./Font/Eudoxus-Sans-font/EudoxusSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: Eudoxus-Sans-bold;
+  src: url("./Font/Eudoxus-Sans-font/EudoxusSans-Bold.ttf");
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: Eudoxus-Sans-bold;
+}
 
 * {
   margin: 0;
@@ -7,7 +24,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: Eudoxus-Sans;
 }
 
 .table {
@@ -29,7 +46,7 @@ body {
 
 .table__item:nth-child(3) {
   border-radius: 12px 12px 0 0;
-  box-shadow: 0 20px 40px 0 rgba(95, 95, 95, .16);
+  box-shadow: 0 20px 40px 0 rgba(95, 95, 95, 0.16);
 }
 
 .table__row {
@@ -44,14 +61,14 @@ body {
 }
 
 .table__row:nth-child(even) {
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
 }
 
 .item__heading {
   font-weight: 700;
   font-size: 20px;
   line-height: 28px;
-  color: #1B1E35;
+  color: #1b1e35;
 }
 
 .item__para {
@@ -65,7 +82,7 @@ body {
   font-weight: 700;
   font-size: 22px;
   line-height: 32px;
-  color: #1B1E35;
+  color: #1b1e35;
   margin-bottom: 12px;
 }
 
@@ -73,7 +90,7 @@ body {
   font-weight: 700;
   font-size: 48px;
   line-height: 56px;
-  color: #1B1E35;
+  color: #1b1e35;
   margin-bottom: 80px;
   display: flex;
   align-items: baseline;
@@ -91,7 +108,7 @@ body {
   height: 48px;
   text-align: center;
   border: none;
-  background-color: #7A00FF;
+  background-color: #7a00ff;
   color: #fff;
   border-radius: 8px;
   margin-bottom: 12px;
