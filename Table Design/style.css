@@ -5,11 +5,6 @@
   src: url("./Font/Eudoxus-Sans-font/EudoxusSans-Regular.ttf");
 }
 
-@font-face {
-  font-family: Eudoxus-Sans-bold;
-  src: url("./Font/Eudoxus-Sans-font/EudoxusSans-Bold.ttf");
-}
-
 h1,
 h2,
 h3,
