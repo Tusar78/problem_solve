@@ -9,7 +9,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: Eudoxus-Sans-bold;
+  font-family: Eudoxus-Sans;
 }
 
 * {
@@ -36,7 +36,7 @@ body {
 
 .table__items {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-template-columns: 37% repeat(3,minmax(0,1fr));
 }
 
 .table__item:nth-child(3) {
