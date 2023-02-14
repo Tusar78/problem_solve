@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+@font-face {
+  font-family: Eudoxus-Sans;
+  src: url("./Font/Eudoxus-Sans-font/EudoxusSans-Regular.ttf");
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: Eudoxus-Sans;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Eudoxus-Sans;
+}
+
+.table {
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 40px;
+}
