@@ -1,8 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
-
 @font-face {
   font-family: Eudoxus-Sans;
-  src: url("./Font/Eudoxus-Sans-font/EudoxusSans-Regular.ttf");
+  src: url("../Font/Eudoxus-Sans-font/EudoxusSans-Regular.ttf");
 }
 
 h1,
@@ -31,5 +29,62 @@ body {
 .container {
   width: 100%;
   max-width: 1240px;
-  margin: 0 40px;
+}
+
+.table__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.table__cards {
+  display: grid;
+  grid-template-columns: 35% repeat(3, minmax(0, 1fr));
+}
+
+.table__bottom {
+  display: grid;
+  grid-template-columns: 35% repeat(3, minmax(0, 1fr));
+  align-items: center;
+}
+
+.table__granted {
+  justify-self: center;
+}
+
+.switch__wrap {
+  width: max-content;
+  background-color: #eee;
+  padding: 4px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.switch__on {
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 6px 12px;
+  margin-right: 12px;
+}
+
+.switch__off {
+  padding-right: 12px;
+}
+
+.card {
+  padding: 32px 28px;
+}
+
+.card__title {
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.card__money {
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 700;
 }
