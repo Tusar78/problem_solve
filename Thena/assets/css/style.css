@@ -66,9 +66,17 @@ body {
   align-items: center;
 }
 
+.table__granted {
+  width: 100%;
+  height: 100%;
+}
+
 .icon__wrap {
   width: 100%;
-  text-align: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .switch__wrap {
@@ -202,6 +210,10 @@ body {
   line-height: 22px;
   font-weight: 400;
   color: #767886;
+}
+
+.even-bg {
+  background-color: #F8F8F8;
 }
 
 @media screen and (max-width: 991.98px) {
