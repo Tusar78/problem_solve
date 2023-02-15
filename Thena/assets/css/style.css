@@ -183,6 +183,12 @@ body {
   font-family: Eudoxus-Sans;
 }
 
+.card__btn--outline {
+  background-color: #fff;
+  color: #1b1e35;
+  border: 2px solid #1B1E35;
+}
+
 .card__text {
   font-size: 14px;
   font-weight: 400;
