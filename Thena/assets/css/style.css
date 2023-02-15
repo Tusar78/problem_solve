@@ -66,8 +66,9 @@ body {
   align-items: center;
 }
 
-.table__granted {
-  justify-self: center;
+.icon__wrap {
+  width: 100%;
+  text-align: center;
 }
 
 .switch__wrap {
@@ -188,6 +189,50 @@ body {
   padding: 21px 24px;
 }
 
-.table__bottom > div:nth-child(even) {
-  background-color: red;
+.feature__title {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #1b1e35;
+  margin-bottom: 4px;
 }
+
+.feature__text {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #767886;
+}
+
+@media screen and (max-width: 991.98px) {
+  .table__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 40px;
+  }
+
+  .table__bottom {
+    grid-template-columns: 50% repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media screen and (max-width: 768.98px) {
+  .table__cards {
+    display: grid;
+    grid-template-columns: 100%;
+    margin: 0 30px;
+  }
+
+  .table__bottom {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .table__feature {
+    grid-column: 1/-1;
+  }
+
+  .icon__wrap {
+    text-align: center;
+  }
+}
+
