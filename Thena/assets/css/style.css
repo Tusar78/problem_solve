@@ -186,7 +186,7 @@ body {
 .card__btn--outline {
   background-color: #fff;
   color: #1b1e35;
-  border: 2px solid #1B1E35;
+  border: 2px solid #1b1e35;
 }
 
 .card__text {
@@ -248,6 +248,140 @@ body {
   line-height: 34px;
   font-weight: 700;
   color: #1b1e35;
+}
+
+/* Slider  Part */
+.slider-section {
+  padding: 100px 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+.slider__heading {
+  text-align: center;
+}
+
+.slider__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 68px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #1b1e35;
+  margin-bottom: 24px;
+}
+
+.slider__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #1b1e35;
+}
+
+.slider__body {
+  width: 100%;
+  max-width: 606px;
+  margin: 109px auto 0;
+  position: relative;
+}
+
+.main_range {
+  width: 100%;
+  max-width: 450px;
+  margin: auto;
+}
+
+.slider__track {
+  width: 85px;
+  height: 8px;
+  background-color: #7a00ff;
+  position: absolute;
+  border-radius: 37px;
+  top: 0;
+}
+
+.slider__track.track-one {
+  left: 0;
+  top: 5px;
+}
+
+.slider__track.track-two {
+  right: 0;
+  top: 5px;
+  background-color: #eee;
+}
+
+
+.rs-container .rs-pointer {
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border: 0;
+  border-radius: 50%;
+  top: -1px;
+  z-index: 1;
+}
+
+.rs-container .rs-pointer::after,
+.rs-container .rs-pointer::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #7a00ff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.rs-container .rs-bg {
+  background-color: #eee;
+  border: 0;
+  height: 8px;
+  border-radius: 37px;
+}
+
+.rs-container .rs-selected {
+  background-color: #7a00ff;
+  border: 0;
+  height: 8px;
+  border-radius: 37px;
+}
+
+.rs-tooltip {
+  width: 180px;
+  height: 40px;
+  left: 10px;
+  background: #7A00FF;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #fff;
+  transform: translate(-50%, -50px);
+  border: 0;
+  border-radius: 4px;
+  padding: 8px 15px 8px;
+}
+
+.rs-tooltip::before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  bottom: -0.5em;
+  left: 50%;
+  transform: translate(-50%);
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid rgb(122, 0, 255);
+}
+
+.rs-scale {
+  display: none;
 }
 
 @media screen and (max-width: 991.98px) {
@@ -335,7 +469,7 @@ body {
   .table__bottom > div {
     padding: 21px 10px;
   }
-  
+
   .table__cards,
   .table__bottom {
     margin: 0 10px;

@@ -4,11 +4,33 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Responsive Table</title>
+
+    <!-- =-= Attached Range Slider =-=  -->
+    <link rel="stylesheet" href="./assets/css/rSlider.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
     <main class="main">
+      <section class="slider-section">
+        <div class="container">
+          <div class="slider__content">
+            <div class="slider__heading">
+              <h2 class="slider__title">Compare the plans and find yours</h2>
+              <p class="slider__text">
+                Simple, transparent pricing that grows with you
+              </p>
+            </div>
+            <div class="slider__body">
+              <div class="slider__track track-one"></div>
+              <div class="main_range">
+                <input type="text" id="slider" class="slider" />
+              </div>
+              <div class="slider__track track-two"></div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section class="table">
         <div class="container">
           <div class="table__content">
@@ -67,7 +89,9 @@
                     </div>
                   </div>
                   <div class="card__footer">
-                    <button type="button" class="card__btn card__btn--outline">Contact US</button>
+                    <button type="button" class="card__btn card__btn--outline">
+                      Contact US
+                    </button>
                     <p class="card__text">
                       Manage all of your customer communication in Slack
                     </p>
@@ -246,9 +270,7 @@
               <!-- Row -->
               <div class="table__feature">
                 <h2 class="feature__title">Whitelabelling</h2>
-                <p class="feature__text">
-                  Responses will be whitelabeled
-                </p>
+                <p class="feature__text">Responses will be whitelabeled</p>
               </div>
               <div class="table__granted">
                 <div class="icon__wrap">
@@ -290,5 +312,36 @@
         </div>
       </section>
     </main>
+
+    <script src="./assets/js/rSlider.min.js"></script>
+    <script>
+      (function () {
+        "use strict";
+        var init = function () {
+          var slider = new rSlider({
+            target: "#slider",
+            values: { min: 0, max: 200 },
+            step: 50,
+            range: false,
+            set: [0],
+            scale: false,
+            labels: false,
+            tooltip: true,
+            onChange: function (val) {
+              const myTooltip = document.querySelector(".rs-tooltip");
+              if (val == 0) {
+                myTooltip.innerText = `Total ${+val + 10} Channels`;
+              } else if (val == 200) {
+                myTooltip.innerText = `Total ${+val - 50}+ Channels`;
+              } else {
+                myTooltip.innerText = `Total ${+val} Channels`;
+              }
+              console.log(val);
+            },
+          });
+        };
+        window.onload = init;
+      })();
+    </script>
   </body>
 </html>

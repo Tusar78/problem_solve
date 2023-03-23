@@ -11,6 +11,8 @@ function customSlider() {
   tooltip.innerHTML = slider.value;
   progress.style.width = val;
   thumb.style.left = val;
+
+  
 }
 
 customSlider();
@@ -18,3 +20,17 @@ customSlider();
 slider.addEventListener('input', () => {
   customSlider();
 })
+
+// slider.oninput = function () {
+//   tooltip.innerHTML = this.value;
+//   // let offset = 45;
+
+//   // Position the tooltip on the thumb
+//   var thumbWidth = slider.offsetHeight;
+//   var thumbPosition =
+//     ((this.value - this.min) / (this.max - this.min)) *
+//     (slider.offsetWidth - thumbWidth);
+//   var tooltipPosition =
+//     thumbPosition - tooltip.offsetWidth / 2 + thumbWidth / 2;
+//   tooltip.style.left = `${tooltipPosition}px`;
+// };
